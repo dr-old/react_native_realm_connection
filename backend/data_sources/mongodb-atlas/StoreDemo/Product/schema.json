@@ -1,0 +1,28 @@
+{
+    "title": "Product",
+    "type": "object",
+    "required": [
+        "_id",
+        "name",
+        "numInStock",
+        "price",
+        "storeId"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "numInStock": {
+            "bsonType": "long"
+        },
+        "price": {
+            "bsonType": "double"
+        },
+        "storeId": {
+            "bsonType": "objectId"
+        }
+    }
+}

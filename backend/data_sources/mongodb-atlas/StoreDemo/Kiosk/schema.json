@@ -1,0 +1,22 @@
+{
+    "title": "Kiosk",
+    "type": "object",
+    "required": [
+        "_id",
+        "storeId"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "products": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "storeId": {
+            "bsonType": "objectId"
+        }
+    }
+}
